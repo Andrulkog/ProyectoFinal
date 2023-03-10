@@ -1,0 +1,65 @@
+{% extends 'Indice/Plantillas/index.html' %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}  
+        {% block head %}    
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>About Us</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href={% static 'about_us/css/styles.css' %} rel="stylesheet" />
+        {% endblock head %}
+    </head>
+
+    {% block contenido %}
+    
+    <body id="page-top">
+
+        <!-- Header-->
+
+        <header class="bg-primary bg-gradient text-white">
+            <div class="container px4 text-center">
+                <h1 class="fw-bolder">Workout Blog</h1>
+                <p class="lead">Entrená y compartí</p>
+                <a class="btn btn-lg btn-light" href="#about"></a>
+            </div>
+        </header>
+
+        <!-- About section-->
+
+        <section id="about">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Quienes somos?</h2>
+                        <p class="lead">Somos una comunidad a la que le gusta entrenar y sentirse bien! El objetivo de este blog es que puedas llevar un registro de tus actividades y compartas tus rutinas y experiencias con otros miembros de la comunidad. De esta manera entre todos vamos a poder contribuir con info sobre entrenamientos, lesiones, motiviación, obejtivos, eventos y cualquier cosa que nos ayude a entrenar y sentirnos cada día un poquito mejor. Cuerpo sano, mente sana! Y recuerda...la clave no está en la intensidad, sino en la persisitencia.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services section-->
+
+        <section class="bg-light" id="services">
+            <div class="container px-4">
+                <div class="row gx-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2>Un poquito sobre mi...</h2>
+                        <p class="lead">Mi nombre es Andy, como se imaginarán me gusta mucho el deporte...creo que es necesario para una vida plena. Siempre estoy pensando en ideas que puedan aportar algo a los demás y se me ocurrió crear este blog para poder mejorar el entrenamiento de quienes lo usen. Además de que tengo que hacer un proyecto para mi curso de Coder!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% endblock contenido %}
+
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
