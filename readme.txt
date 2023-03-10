@@ -1,5 +1,10 @@
 Nombre del Alumno: Andy Graglia
-Comisión: 34665
+ComisiÃ³n: 34665
 Python
 
-El proyecto se realizó con lectura de material y videos adicionales a lo visto en clase
+LINK AL VIDEO DE NAVEGACION DEL BLOG:
+
+https://drive.google.com/file/d/1GX7Lh4VrjAY8jfTNNSkveuOAD-HccS_A/view?usp=share_link
+
+
+El proyecto se realizÃ³ con lectura de material y videos adicionales a lo visto en clase
